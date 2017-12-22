@@ -10,8 +10,7 @@ function validateForm() {
         alert("password must be filled out");
         return false;
     }
-    if (x == "dcoman" && y == "dcoman123") {
-        alert("Muie dragnea!");
+    if (x !== "test" && y !== "test") { 
         return false;
     }
 }
